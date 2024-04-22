@@ -1,0 +1,44 @@
+---
+layout: main.njk
+---
+<main>
+
+		<h1>Summer/Autumn 2024</h1>
+
+		<header>
+			{% for weekday in weekdays %}
+			<p class="day">{{ weekday | upper }}</p>
+			{% endfor %}
+		</header>
+
+		{% for weekNumber in range(1, 4) %}
+
+		{% set thisWeek = ["week" + weekNumber] %}
+
+		<section class="week week{{weekNumber}}">
+			<header>
+				<h2>Week {{weekNumber}}</h2>
+				<h3>{{ weeks[thisWeek].dates | join(' . ') }}</h3>
+			</header>
+
+			{% for mealType in weeks[thisWeek].meals %}
+
+			<article>
+				<h4>{{ mealType.name }}</h4>
+				{% for option in mealType.options %}
+				<p class="{% if option.new %}new{% endif %} {% if option.veg %}veg{% endif %} {% if option.vegan %}vegan{% endif %} ">{{option.text}}</p>
+				{% endfor %}
+			</article>
+
+			{% endfor %}
+
+			<article>
+				<h4>Extra Option</h4>
+				<p class="all-week-choice">{{ weeks[thisWeek].extra }}</p>
+			</article>
+
+		</section>
+
+		{% endfor %}
+
+	</main>

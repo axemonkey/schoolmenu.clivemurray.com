@@ -1,0 +1,131 @@
+{
+  "dates": ["22 April", "13 May", "10 June", "1 July", "22 July", "9 September", "30 September", "21 October"],
+  "meals": [
+    {
+      "name": "Main Meal 1",
+      "options": [
+        {
+          "text": "Tex Mex Quorn Fajita",
+          "new": false,
+          "veg": true,
+          "vegan": false
+        },
+        {
+          "text": "Chicken Pie",
+          "new": false,
+          "veg": false,
+          "vegan": false
+        },
+        {
+          "text": "Roast Chicken with Sage & Onion Stuffing & Gravy",
+          "new": false,
+          "veg": false,
+          "vegan": false
+        },
+        {
+          "text": "Beef Burger in a Bun",
+          "new": false,
+          "veg": false,
+          "vegan": false
+        },
+        {
+          "text": "Salmon Fishcake",
+          "new": false,
+          "veg": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "name": "Main Meal 2",
+      "options": [
+        {
+          "text": "Creamy Macaroni Cheese",
+          "new": false,
+          "veg": true,
+          "vegan": false
+        },
+        {
+          "text": "Moroccan Tagine",
+          "new": true,
+          "veg": false,
+          "vegan": true
+        },
+        {
+          "text": "Plant Balls with Gravy",
+          "new": false,
+          "veg": false,
+          "vegan": true
+        },
+        {
+          "text": "Roasted Summer Veg Pasta",
+          "new": false,
+          "veg": false,
+          "vegan": true
+        },
+        {
+          "text": "Classic Cheese & Tomato Pizza",
+          "new": false,
+          "veg": true,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "name": "Side Dish",
+      "options": [
+        {
+          "text": "Rice or Tomato Bread"
+        },
+        {
+          "text": "Diced Potatoes or Couscous"
+        },
+        {
+          "text": "Roast Potatoes or Brown & White Rice"
+        },
+        {
+          "text": "Potato Wedges or Herby Bread"
+        },
+        {
+          "text": "Oven Chips or Tricolour Pasta"
+        }
+      ]
+    },
+    {
+      "name": "Cold Option",
+      "options": [
+        {
+          "text": "Cheese Baguette",
+          "new": false,
+          "veg": true,
+          "vegan": false
+        },
+        {
+          "text": "Ham Sandwich",
+          "new": false,
+          "veg": false,
+          "vegan": false
+        },
+        {
+          "text": "Tuna Roll",
+          "new": false,
+          "veg": false,
+          "vegan": false
+        },
+        {
+          "text": "Cheese Spread Sandwich",
+          "new": false,
+          "veg": true,
+          "vegan": false
+        },
+        {
+          "text": "Egg Roll",
+          "new": false,
+          "veg": true,
+          "vegan": false
+        }
+      ]
+    }
+  ],
+  "extra": "Jacket Potato (Various Toppings)"
+}

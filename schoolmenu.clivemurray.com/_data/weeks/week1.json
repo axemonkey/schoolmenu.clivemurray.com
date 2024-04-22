@@ -1,0 +1,131 @@
+{
+  "dates": ["15 April", "6 May", "3 June", "24 June", "15 July", "2 September", "14 October"],
+  "meals": [
+    {
+      "name": "Main Meal 1",
+      "options": [
+        {
+          "text": "Pork Sausages with Gravy",
+          "new": false,
+          "veg": false,
+          "vegan": false
+        },
+        {
+          "text": "Herb Crusted Chicken with Spaghetti Marinara",
+          "new": true,
+          "veg": false,
+          "vegan": false
+        },
+        {
+          "text": "Roast Beef with Gravy",
+          "new": false,
+          "veg": false,
+          "vegan": false
+        },
+        {
+          "text": "Favourite Quorn Hot Dog",
+          "new": false,
+          "veg": true,
+          "vegan": false
+        },
+        {
+          "text": "Battered Fish Fillet",
+          "new": false,
+          "veg": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "name": "Main Meal 2",
+      "options": [
+        {
+          "text": "Cheese & Tomato Quiche",
+          "new": false,
+          "veg": true,
+          "vegan": false
+        },
+        {
+          "text": "Mild Sweet Potato & Chickpea Curry",
+          "new": false,
+          "veg": false,
+          "vegan": true
+        },
+        {
+          "text": "Mince Slice",
+          "new": true,
+          "veg": false,
+          "vegan": true
+        },
+        {
+          "text": "Cheesy Spring Vegetable Bake",
+          "new": false,
+          "veg": true,
+          "vegan": false
+        },
+        {
+          "text": "Classic Cheese & Tomato Pizza",
+          "new": false,
+          "veg": true,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "name": "Side Dish",
+      "options": [
+        {
+          "text": "Pasta or Potato Wedges"
+        },
+        {
+          "text": "Brown & White Rice"
+        },
+        {
+          "text": "Roast Potatoes or Wholemeal Pasta"
+        },
+        {
+          "text": "Diced Potatoes or Garlic Bread"
+        },
+        {
+          "text": "Potato Wedges or Tricolour Pasta"
+        }
+      ]
+    },
+    {
+      "name": "Cold Options",
+      "options": [
+        {
+          "text": "Tuna Roll",
+          "new": false,
+          "veg": false,
+          "vegan": false
+        },
+        {
+          "text": "Cheese Spread Roll",
+          "new": false,
+          "veg": true,
+          "vegan": false
+        },
+        {
+          "text": "Ham Sandwich",
+          "new": false,
+          "veg": false,
+          "vegan": false
+        },
+        {
+          "text": "Cheese Baguette",
+          "new": false,
+          "veg": true,
+          "vegan": false
+        },
+        {
+          "text": "Egg Roll",
+          "new": false,
+          "veg": true,
+          "vegan": false
+        }
+      ]
+    }
+  ],
+  "extra": "Jacket Potato (Various Toppings)"
+}
