@@ -48,8 +48,8 @@
         {
           "text": "Italian Pasta Bake",
           "new": false,
-          "veg": true,
-          "vegan": false
+          "veg": false,
+          "vegan": true
         },
         {
           "text": "Creamy Quorn Pie",
