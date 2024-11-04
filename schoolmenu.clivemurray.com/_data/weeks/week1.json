@@ -1,18 +1,18 @@
 {
-  "dates": ["15 April", "6 May", "3 June", "24 June", "15 July", "2 September", "14 October"],
+  "dates": ["4 November", "25 November", "16 December", "6 January", "27 January", "24 February", "17 March"],
   "meals": [
     {
       "name": "Main Meal 1",
       "options": [
         {
-          "text": "Pork Sausages with Gravy",
+          "text": "Breaded Chicken Grill",
           "new": false,
           "veg": false,
           "vegan": false
         },
         {
-          "text": "Herb Crusted Chicken with Spaghetti Marinara",
-          "new": true,
+          "text": "Chicken Pie",
+          "new": false,
           "veg": false,
           "vegan": false
         },
@@ -23,7 +23,7 @@
           "vegan": false
         },
         {
-          "text": "Favourite Quorn Hot Dog",
+          "text": "Quorn Hot Dog",
           "new": false,
           "veg": true,
           "vegan": false
@@ -40,31 +40,31 @@
       "name": "Main Meal 2",
       "options": [
         {
-          "text": "Cheese & Tomato Quiche",
+          "text": "Margherita Wrap",
           "new": false,
           "veg": true,
           "vegan": false
         },
         {
-          "text": "Mild Sweet Potato & Chickpea Curry",
-          "new": false,
-          "veg": false,
-          "vegan": true
-        },
-        {
-          "text": "Mince Slice",
+          "text": "Veggie Sausage Bow Pasta",
           "new": true,
           "veg": false,
           "vegan": true
         },
         {
-          "text": "Cheesy Spring Vegetable Bake",
+          "text": "Shepherdess Pie",
           "new": false,
+          "veg": false,
+          "vegan": true
+        },
+        {
+          "text": "Egg Breakfast Muffin",
+          "new": true,
           "veg": true,
           "vegan": false
         },
         {
-          "text": "Classic Cheese & Tomato Pizza",
+          "text": "Cheese & Tomato Pizza",
           "new": false,
           "veg": true,
           "vegan": false
@@ -75,16 +75,16 @@
       "name": "Side Dish",
       "options": [
         {
-          "text": "Pasta or Potato Wedges"
+          "text": "Brown and White Rice or Pasta Shapes"
         },
         {
-          "text": "Brown & White Rice"
+          "text": "Diced Potatoes"
         },
         {
           "text": "Roast Potatoes or Wholemeal Pasta"
         },
         {
-          "text": "Diced Potatoes or Garlic Bread"
+          "text": "Penne Pasta or Hash Browns"
         },
         {
           "text": "Potato Wedges or Tricolour Pasta"
@@ -92,7 +92,7 @@
       ]
     },
     {
-      "name": "Cold Options",
+      "name": "Cold Option",
       "options": [
         {
           "text": "Tuna Roll",
@@ -101,13 +101,13 @@
           "vegan": false
         },
         {
-          "text": "Cheese Spread Roll",
+          "text": "Cheese Spread Sandwich",
           "new": false,
           "veg": true,
           "vegan": false
         },
         {
-          "text": "Ham Sandwich",
+          "text": "Ham Roll",
           "new": false,
           "veg": false,
           "vegan": false

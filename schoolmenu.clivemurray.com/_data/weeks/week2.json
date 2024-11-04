@@ -1,17 +1,17 @@
 {
-  "dates": ["22 April", "13 May", "10 June", "1 July", "22 July", "9 September", "30 September", "21 October"],
+  "dates": ["11 November", "2 December", "13 January", "3 February", "3 March", "24 March"],
   "meals": [
     {
       "name": "Main Meal 1",
       "options": [
         {
-          "text": "Tex Mex Quorn Fajita",
+          "text": "Veggie Sausages & Gravy",
           "new": false,
-          "veg": true,
-          "vegan": false
+          "veg": false,
+          "vegan": true
         },
         {
-          "text": "Chicken Pie",
+          "text": "Chicken Pasta Bake",
           "new": false,
           "veg": false,
           "vegan": false
@@ -29,8 +29,8 @@
           "vegan": false
         },
         {
-          "text": "Salmon Fishcake",
-          "new": false,
+          "text": "Harry Ramsden’s Salmon & Sweet Potato Fishcake",
+          "new": true,
           "veg": false,
           "vegan": false
         }
@@ -40,31 +40,31 @@
       "name": "Main Meal 2",
       "options": [
         {
-          "text": "Creamy Macaroni Cheese",
+          "text": "Macaroni Cheese",
           "new": false,
           "veg": true,
           "vegan": false
         },
         {
-          "text": "Moroccan Tagine",
-          "new": true,
-          "veg": false,
-          "vegan": true
-        },
-        {
-          "text": "Plant Balls with Gravy",
+          "text": "Homemade Vegan Sausage Roll & Gravy",
           "new": false,
           "veg": false,
           "vegan": true
         },
         {
-          "text": "Roasted Summer Veg Pasta",
+          "text": "Roast Quorn Fillet with Sage & Onion Stuffing & Gravy",
+          "new": false,
+          "veg": true,
+          "vegan": false
+        },
+        {
+          "text": "Tomato Bolognese",
           "new": false,
           "veg": false,
           "vegan": true
         },
         {
-          "text": "Classic Cheese & Tomato Pizza",
+          "text": "Cheese & Tomato Pizza",
           "new": false,
           "veg": true,
           "vegan": false
@@ -75,16 +75,16 @@
       "name": "Side Dish",
       "options": [
         {
-          "text": "Rice or Tomato Bread"
+          "text": "Mashed Potates or Garlic Bread"
         },
         {
-          "text": "Diced Potatoes or Couscous"
+          "text": "Penne Pasta or Diced Potatoes"
         },
         {
           "text": "Roast Potatoes or Brown & White Rice"
         },
         {
-          "text": "Potato Wedges or Herby Bread"
+          "text": "Potato Wedges or Spaghetti"
         },
         {
           "text": "Oven Chips or Tricolour Pasta"
@@ -101,13 +101,7 @@
           "vegan": false
         },
         {
-          "text": "Ham Sandwich",
-          "new": false,
-          "veg": false,
-          "vegan": false
-        },
-        {
-          "text": "Tuna Roll",
+          "text": "Ham Roll",
           "new": false,
           "veg": false,
           "vegan": false
@@ -116,6 +110,12 @@
           "text": "Cheese Spread Sandwich",
           "new": false,
           "veg": true,
+          "vegan": false
+        },
+        {
+          "text": "Tuna Roll",
+          "new": false,
+          "veg": false,
           "vegan": false
         },
         {
