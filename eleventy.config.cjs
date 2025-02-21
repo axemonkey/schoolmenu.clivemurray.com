@@ -1,11 +1,11 @@
 module.exports = function (eleventyConfig) {
-	eleventyConfig.addPassthroughCopy('schoolmenu.clivemurray.com/public');
-	eleventyConfig.addPassthroughCopy({ 'schoolmenu.clivemurray.com/robots.txt': '/robots.txt' });
+	eleventyConfig.addPassthroughCopy('src/public');
+	eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
 	eleventyConfig.setUseGitIgnore(false);
 	eleventyConfig.setServerOptions({
 		// liveReload: false,
 		watch: [
-			'schoolmenu.clivemurray.com/public/**/*',
+			'src/public/**/*',
 		],
 		showVersion: true,
 	});
