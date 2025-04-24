@@ -1,23 +1,23 @@
 {
-  "dates": ["11 November", "2 December", "13 January", "3 February", "3 March", "24 March"],
+  "dates": ["28 April", "19 May", "16 June", "7 July", "8 September", "20 October"],
   "meals": [
     {
       "name": "Main Meal 1",
       "options": [
         {
-          "text": "Veggie Sausages & Gravy",
+          "text": "Bean & Cheese Slice",
           "new": false,
-          "veg": false,
-          "vegan": true
+          "veg": true,
+          "vegan": false
         },
         {
-          "text": "Chicken Pasta Bake",
+          "text": "Chicken Pie with Gravy",
           "new": false,
           "veg": false,
           "vegan": false
         },
         {
-          "text": "Roast Pork with Sage & Onion Stuffing & Gravy",
+          "text": "Roast Beef with Gravy",
           "new": false,
           "veg": false,
           "vegan": false
@@ -29,8 +29,8 @@
           "vegan": false
         },
         {
-          "text": "Harry Ramsden’s Salmon & Sweet Potato Fishcake",
-          "new": true,
+          "text": "Salmon & Sweet Potato Fishcake",
+          "new": false,
           "veg": false,
           "vegan": false
         }
@@ -46,19 +46,19 @@
           "vegan": false
         },
         {
-          "text": "Homemade Vegan Sausage Roll & Gravy",
+          "text": "Mild Mexican Bean Chilli",
           "new": false,
           "veg": false,
           "vegan": true
         },
         {
-          "text": "Roast Quorn Fillet with Sage & Onion Stuffing & Gravy",
+          "text": "Veggie Sausages with Gravy",
           "new": false,
-          "veg": true,
-          "vegan": false
+          "veg": false,
+          "vegan": true
         },
         {
-          "text": "Tomato Bolognese",
+          "text": "Roasted Summer Veg Pasta",
           "new": false,
           "veg": false,
           "vegan": true
@@ -75,51 +75,51 @@
       "name": "Side Dish",
       "options": [
         {
-          "text": "Mashed Potates or Garlic Bread"
+          "text": "Diced Potatoes or Herby Garlic Bread"
         },
         {
-          "text": "Penne Pasta or Diced Potatoes"
+          "text": "Potato Wedges or Brown & White Rice"
         },
         {
-          "text": "Roast Potatoes or Brown & White Rice"
+          "text": "Roast Potatoes or Wholemeal Pasta"
         },
         {
-          "text": "Potato Wedges or Spaghetti"
+          "text": "Wholemeal Pasta or Diced Potatoes"
         },
         {
-          "text": "Oven Chips or Tricolour Pasta"
+          "text": "Chips or Tricolour Pasta"
         }
       ]
     },
     {
-      "name": "Cold Option",
+      "name": "Roll Option",
       "options": [
         {
-          "text": "Cheese Baguette",
+          "text": "Cheese",
           "new": false,
           "veg": true,
           "vegan": false
         },
         {
-          "text": "Ham Roll",
+          "text": "Tuna Mayonnaise",
           "new": false,
           "veg": false,
           "vegan": false
         },
         {
-          "text": "Cheese Spread Sandwich",
+          "text": "Cheese Spread",
           "new": false,
           "veg": true,
           "vegan": false
         },
         {
-          "text": "Tuna Roll",
+          "text": "Ham",
           "new": false,
           "veg": false,
           "vegan": false
         },
         {
-          "text": "Egg Roll",
+          "text": "Cheese",
           "new": false,
           "veg": true,
           "vegan": false
@@ -127,5 +127,5 @@
       ]
     }
   ],
-  "extra": "Jacket Potato (Various Toppings)"
+  "extra": "Jacket Potato with Various Fillings"
 }
