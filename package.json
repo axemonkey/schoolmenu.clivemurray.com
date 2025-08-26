@@ -4,7 +4,7 @@
   "private": "true",
   "scripts": {
     "start": "npx @11ty/eleventy --input=./src --serve",
-    "lint-tooling": "npx eslint '*.js' 'tooling/**/*.js'",
+    "lint-tooling": "npx eslint tooling",
     "build": "node tooling/clean.js src && npm-run-all build:*",
     "lint": "npm-run-all lint:* lint-tooling",
     "dev": "npm-run-all lint build && npm-run-all --parallel start watch",
@@ -34,11 +34,6 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "@babel/core": "7.24.7",
-    "@babel/preset-env": "7.24.7",
-    "@rollup/plugin-babel": "6.0.4",
-    "@rollup/plugin-commonjs": "24.0.0",
-    "@rollup/plugin-node-resolve": "15.0.1",
     "@springernature/eslint-config": "5.0.5",
     "autoprefixer": "10.4.13",
     "del": "7.0.0",
@@ -55,7 +50,6 @@
     "postcss-custom-properties": "12.1.11",
     "postcss-scss": "4.0.6",
     "prettier": "2.8.2",
-    "rollup": "3.29.5",
     "sass": "^1.80.6",
     "sharp": "0.32.6",
     "stylelint": "15.10.1",
