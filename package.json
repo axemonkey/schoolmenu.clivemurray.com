@@ -33,7 +33,7 @@
     "node": "22"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy": "^3.1.2",
     "@springernature/eslint-config": "5.0.5",
     "autoprefixer": "10.4.13",
     "del": "7.0.0",
